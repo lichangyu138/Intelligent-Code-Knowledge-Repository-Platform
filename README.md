@@ -232,18 +232,18 @@ pip install -r requirements.txt
 
 ```bash
 # MySQL数据库配置
-MYSQL_HOST=10.8.6.14
+MYSQL_HOST=localhost
 MYSQL_PORT=13306
 MYSQL_USER=root
 MYSQL_PASSWORD=SFBhdweREaKTm6XX
 MYSQL_DATABASE=code_review_db
 
 # Milvus向量数据库配置
-MILVUS_HOST=10.8.6.14
+MILVUS_HOST=localhost
 MILVUS_PORT=19530
 
 # Ollama配置
-OLLAMA_HOST=192.168.7.102
+OLLAMA_HOST=localhost
 OLLAMA_PORT=11434
 OLLAMA_EMBEDDING_MODEL=bge-m3:567m
 OLLAMA_LLM_MODEL=gemma3:4b
@@ -967,4 +967,5 @@ MIT License
 
 **最后更新**: 2024年  
 **版本**: v1.0.0
+
 
